@@ -1,0 +1,18 @@
+{
+  "retrieved_at_utc": "2026-08-01T20:30:38.200953+00:00",
+  "source_snapshot": "outputs/live/20260801T203038Z",
+  "openreview_id": "7H9HRTWady",
+  "submission_number": 14998,
+  "title": "Transitivity Meets Cyclicity: Explicit Preference Decomposition for Dynamic Large Language Model Alignment",
+  "arxiv": "2605.17342",
+  "claim_precedence": "claims_anchored.json replaces claims.json when present",
+  "claim_count": 6,
+  "max_points": 12,
+  "input_sha256": {
+    "metadata.json": "fc0048b23c38628d57f49ae110fb032fe99c9a0eb9672392656f041a96e4bfe4",
+    "live_claims.json": "c7133d31d55c99bd2807340ec65ba9f228ed0fc2ee56c3f6af7481faa20c6e0b",
+    "challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5",
+    "claims_default_raw.json": "6f0984c875e7bc9507a9d3cf738621d22db16bc4c244ed7ceab86d60ecd14e01",
+    "claims_anchored_raw.json": "7c0373fbbfb98b5acdc2c0ac122d9d81431bd6b42dda76fa36a91b49ec4b7825"
+  }
+}

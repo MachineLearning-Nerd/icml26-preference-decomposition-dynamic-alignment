@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Theorem 4.5 establishes that any preference function decomposes uniquely into an orthogonal transitive (scalar, potential-function) component and a cyclic (zero-marginal, vector) component (Section 4.1, Theorem 4.5).",
+    "status": "unverified"
+  },
+  {
+    "text": "HRC instantiates the transitive component with a Bradley-Terry scalar reward and the cyclic component with GPM-style skew-symmetric bilinear forms, per Theorem 4.6 (Section 4.1, Theorem 4.6).",
+    "status": "unverified"
+  },
+  {
+    "text": "On RewardBench 2, HRC achieves 57.63% average accuracy on Gemma-2B-it, surpassing BT (55.93%) and GPM (56.40%) (Section 6.2, Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "On RewardBench 2 with Llama-3.1-8B, HRC reaches 70.95% average accuracy, an 0.85% improvement over the BT baseline (Section 6.2, Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "HRC+DSPPO achieves a 44.75% length-controlled win rate against GPT-4-Turbo on AlpacaEval 2.0 for Gemma-2B-it, and 46.8% win rate on Arena-Hard-v0.1 (a 3.2% gain over the best baseline) (Section 6.3).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 5.3 shows DSPPO's dynamic score schedule converges to a Nash equilibrium at rate O(1/\u221aT) as it shifts from transitive to cyclic guidance over training (Section 5.2, Theorem 5.3).",
+    "status": "unverified"
+  }
+]

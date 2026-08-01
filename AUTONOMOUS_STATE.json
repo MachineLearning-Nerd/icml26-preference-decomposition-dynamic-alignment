@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "openreview_id": "7H9HRTWady",
+  "phase": "claim_1_attempt_1_source_local_audit_complete",
+  "next_action": "launch_claim_1_direct_constructive_decomposition",
+  "active_run_ids": [],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_attempt_1_source_local_audit"
+  ],
+  "failed_attempts": [],
+  "claim_attempt_counts": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "last_checkpoint": "2026-08-01T20:30:38Z",
+  "last_known_git_commit": null,
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "github_repository": null
+}

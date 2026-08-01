@@ -20,8 +20,8 @@
     "6": 0
   },
   "last_checkpoint": "2026-08-01T20:30:38Z",
-  "last_known_git_commit": null,
+  "last_known_git_commit": "52c916be7bbe857ebbfba784e92885dc8b0e971e",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": null
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment"
 }

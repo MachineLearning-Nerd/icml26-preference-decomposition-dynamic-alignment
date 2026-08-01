@@ -1,0 +1,11 @@
+{
+  "seeds": [
+    11,
+    23,
+    47,
+    89,
+    131
+  ],
+  "n": 7,
+  "measure": "uniform discrete"
+}

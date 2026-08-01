@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "openreview_id": "7H9HRTWady",
-  "phase": "claim_1_attempt_1_source_local_audit_complete",
-  "next_action": "launch_claim_1_direct_constructive_decomposition",
+  "phase": "claim_1_attempt_1_finite_decomposition_toy_complete",
+  "next_action": "independent_review_claim_1_toy_then_claim_2_direct_instantiation",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_attempt_1_source_local_audit"
+    "claim_1_attempt_1_source_local_audit",
+    "claim_1_attempt_1_exact_rational_finite_decomposition_toy"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -19,9 +20,15 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-01T20:30:38Z",
-  "last_known_git_commit": "9b70680",
+  "last_checkpoint": "2026-08-02T04:01:00Z",
+  "last_known_git_commit": "PENDING_COMMIT",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment"
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment",
+  "claim_1_outcome": {
+    "verdict": "toy",
+    "scope": "five exact-rational finite 7-strategy skew-symmetric games with uniform discrete measure; not a universal theorem proof",
+    "evidence": "outputs/claim1_finite_decomposition/summary.json",
+    "negative_control": "nonconstant wrong potential makes residual non-zero-marginal"
+  }
 }

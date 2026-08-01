@@ -7,6 +7,6 @@ Source paper/version: arXiv:2605.17342
 Official code/data/model pins: source archive/paper PDF pinned; author repo is noted in source but not executed during initialization
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute
 GitHub repository: https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment
-Current phase: claim_1_source_local_audit
-Per-claim state: Claim 1 source audit inconclusive pending direct constructive route; Claims 2-6 not started
+Current phase: claim_1_attempt_1_finite_decomposition_toy_complete
+Per-claim state: Claim 1 toy — exact-rational finite skew-symmetric decomposition with reconstruction/zero-marginal/orthogonality and wrong-potential control; Claims 2-6 not started
 Publication status: not eligible

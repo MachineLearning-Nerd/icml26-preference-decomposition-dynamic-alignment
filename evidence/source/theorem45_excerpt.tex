@@ -1,4 +1,13 @@
+We now invoke a fundamental result from previous work \cite{balduzzi2019open}. \cref{thm:4.5} provides the theoretical legitimacy for our dual-model approach.
+\begin{mdframed}[backgroundcolor=gray!20,linewidth=0pt]
 \begin{theorem}
-    The decomposition admits a structural instantiation where $\phi_T$ corresponds to the \textbf{Bradley-Terry (BT)} model, and $\phi_C$ corresponds to the \textbf{General Preference Model (GPM)}, provided that the embeddings satisfy the zero-mean condition $\mathbb{E}[\mathbf{v}]=\mathbf{0}$.
-\label{thm:decomposition_instantiation}
+  Under two assumptions, any preference function $\phi(\mathbf{v}, \mathbf{w})$ can be uniquely decomposed into the sum of a transitive component $\phi_T$ and a cyclic component $\phi_C$: $\phi(\mathbf{v}, \mathbf{w}) = \phi_T(\mathbf{v}, \mathbf{w}) + \phi_C(\mathbf{v}, \mathbf{w})$, where:
+  \begin{itemize}[noitemsep,nolistsep]
+  \item \textbf{Transitive Component:} There exists a potential function $f: \mathbb{R}^{2d} \to \mathbb{R}$ such that $\phi_T(\mathbf{v}, \mathbf{w}) = f(\mathbf{v}) - f(\mathbf{w})$. This component represents the hierarchical ranking capability of the game.
+  \item \textbf{Cyclic Component:} The component $\phi_C$ satisfies $\int \phi_C(\mathbf{v}, \mathbf{w}) d\mathbf{w} = 0$ for all $\mathbf{v}$ (assuming a uniform measure over the embedding space). This component captures pure rotational dynamics where no global winner exists (e.g., Rock-Paper-Scissors dynamics).
+\end{itemize}
+  \label{thm:4.5}
 \end{theorem}
+\end{mdframed}
+
+We include the proof of \cref{thm:4.5} in \cref{app:proof_decomposition}.

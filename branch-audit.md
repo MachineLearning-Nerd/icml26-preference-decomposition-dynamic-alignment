@@ -5,6 +5,7 @@ Captured before publication of the documentation update.
 ## Remote branch inventory
 
 - Remote: MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment
+- Final repository: MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment
 - Branches: main only
 - Remote main before this update: 5fd6157d94d8e43ef517ceb28f4b80e8e7a260fe
 - Stale master branch: none

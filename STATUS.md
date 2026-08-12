@@ -7,7 +7,7 @@
 - Submission: 14998
 - Collection: ICML 2026 reproduction collection
 - Former repository: icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment
-- Target repository: icml26-preference-decomposition-dynamic-alignment
+- GitHub repository: https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment
 - Canonical branch: main
 - Branch inventory: main only; no stale branch
 - Contract: 6 live claims, 12 maximum points
@@ -30,4 +30,4 @@ claim_1_attempt_1_finite_decomposition_toy_complete
 - Claim 5: UNSTARTED — HRC+DSPPO downstream evaluations.
 - Claim 6: UNSTARTED — DSPPO dynamic-game convergence theorem.
 
-Publication status: not eligible. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.
+Publication status: published as a partial audit, not eligible as a verified reproduction. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.

@@ -16,6 +16,7 @@ Current status: **partial audit**. Claim 1 has a finite exact-rational toy audit
 | Paper PDF pin | paper.pdf SHA-256: 921356c07b3a34bd5c29d88b51f34e55f27eb269fd6aca1d2670ad3d15d80c19 |
 | Collection | ICML 2026 reproduction collection |
 | Former repository | icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment |
+| Current repository | [MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment](https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment) |
 | Canonical branch | main |
 
 The six live claims are preserved in contract/live_claims.json. The contract manifest is pinned by SHA-256 in contract/contract_manifest.json.

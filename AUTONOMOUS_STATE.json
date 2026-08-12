@@ -3,7 +3,7 @@
   "openreview_id": "7H9HRTWady",
   "paper": "arXiv:2605.17342",
   "phase": "claim_1_attempt_1_finite_decomposition_toy_complete",
-  "next_action": "rewrite_attribution_publish_docs_and_verify_rename",
+  "next_action": "update_collection_tracker_and_select_next_repository",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -23,10 +23,11 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-13T00:00:00Z",
-  "last_known_git_commit": "5fd6157d94d8e43ef517ceb28f4b80e8e7a260fe",
+  "last_checkpoint": "2026-08-12T20:50:27Z",
+  "last_known_git_commit": "f75d053b93bdd2e0a7e21035765d7cb39918087f",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
   "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment",
   "target_github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
   "canonical_branch": "main",

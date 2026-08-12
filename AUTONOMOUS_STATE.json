@@ -1,15 +1,18 @@
 {
   "schema_version": 1,
   "openreview_id": "7H9HRTWady",
+  "paper": "arXiv:2605.17342",
   "phase": "claim_1_attempt_1_finite_decomposition_toy_complete",
-  "next_action": "independent_review_claim_1_toy_then_claim_2_direct_instantiation",
+  "next_action": "rewrite_attribution_publish_docs_and_verify_rename",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
     "claim_1_attempt_1_source_local_audit",
-    "claim_1_attempt_1_exact_rational_finite_decomposition_toy"
+    "claim_1_attempt_1_exact_rational_finite_decomposition_toy",
+    "claim_ledger_written",
+    "branch_audit_written"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -20,11 +23,24 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-02T04:01:00Z",
-  "last_known_git_commit": "7e891919cbcff3fdebd445af888961456a2ebd0e",
+  "last_checkpoint": "2026-08-13T00:00:00Z",
+  "last_known_git_commit": "5fd6157d94d8e43ef517ceb28f4b80e8e7a260fe",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment",
+  "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment",
+  "target_github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "canonical_branch": "main",
+  "historical_remote_branch_count": 0,
+  "official_code_repository": "https://github.com/lab-klc/Hybrid-Reward-Cyclic",
+  "official_code_state": "metadata_only_no_executable",
+  "claim_statuses": {
+    "1": "toy_finite_audit",
+    "2": "unstarted",
+    "3": "unstarted",
+    "4": "unstarted",
+    "5": "unstarted",
+    "6": "unstarted"
+  },
   "claim_1_outcome": {
     "verdict": "toy",
     "scope": "five exact-rational finite 7-strategy skew-symmetric games with uniform discrete measure; not a universal theorem proof",

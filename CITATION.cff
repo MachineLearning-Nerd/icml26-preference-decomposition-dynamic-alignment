@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "Transitivity Meets Cyclicity — ICML 2026 partial reproduction audit"
+message: "If you use this audit, please cite the paper and the repository."
+type: software
+authors:
+  - family-names: Huang
+    given-names: Yucong
+  - family-names: Li
+    given-names: Xiucheng
+  - family-names: Zhao
+    given-names: Kaiqi
+  - family-names: Li
+    given-names: Jing
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment"
+repository-artifact: "https://arxiv.org/abs/2605.17342"
+abstract: "Partial claim-by-claim reproduction audit for Transitivity Meets Cyclicity. Claim 1 is a reduced exact-rational finite audit; Claims 2–6 remain unstarted."
+keywords:
+  - preference decomposition
+  - cyclic preferences
+  - reward modeling
+  - DSPPO
+  - reproducibility
+  - ICML 2026
+preferred-citation:
+  type: article
+  title: "Transitivity Meets Cyclicity: Explicit Preference Decomposition for Dynamic Large Language Model Alignment"
+  authors:
+    - family-names: Huang
+      given-names: Yucong
+    - family-names: Li
+      given-names: Xiucheng
+    - family-names: Zhao
+      given-names: Kaiqi
+    - family-names: Li
+      given-names: Jing
+  year: 2026
+  journal: "arXiv preprint arXiv:2605.17342"
+  doi: "10.48550/arXiv.2605.17342"

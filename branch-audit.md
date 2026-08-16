@@ -1,13 +1,13 @@
 # Branch and attribution audit
 
-Captured before publication of the documentation update.
+Captured before publication of the standardized dossier.
 
 ## Remote branch inventory
 
 - Remote: MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment
 - Final repository: MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment
 - Branches: main only
-- Remote main before this update: 5fd6157d94d8e43ef517ceb28f4b80e8e7a260fe
+- Remote main before this update: 9271c858971bf6998fd664b87bfedbd0396504cd
 - Stale master branch: none
 - Stale ORX or experiment branches: none
 
@@ -15,15 +15,11 @@ The repository therefore needs no branch deletion. The canonical branch remains 
 
 ## Commit attribution
 
-All five reachable historical commits currently carry the local automation identity:
-
-    DineshAI Reproduction <automation@dineshai.local>
-
-Before pushing the documentation update, rewrite every reachable commit to the requested public collection identity:
+All seven reachable pre-dossier commits already carry the requested public collection identity:
 
     MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
 
-The rewrite changes author and committer metadata only. It does not change the audited files or their scientific conclusions.
+The final-state verifier checks every reachable commit for this identity and rejects co-author trailers. No identity rewrite was needed for this dossier pass; the attribution check changes no audited file or scientific conclusion.
 
 ## Branch naming policy
 

@@ -14,12 +14,12 @@
 - Contract manifest SHA-256: 1d3a3cd1de4b26cc96bb2f6819f770fcb0db667d6b0b41d61c1d6d7c6885b8f7
 - Source archive SHA-256: 0a1dc5707c3a47d3c3d15e94e1500f2c20603c88418e07aa95dc17b6bc31a3b
 - Paper PDF SHA-256: 921356c07b3a34bd5c29d88b51f34e55f27eb269fd6aca1d2670ad3d15d80c19
-- Official code status: named author repository contains README/LICENSE only at audit time; no executable code, data, or checkpoint pin
+- Official code status: named author repository lab-klc/Hybrid-Reward-Cyclic is pinned at main ce8b59f57854a40ebeb1609849b8455a1174dfa1 and contains README/LICENSE only at audit time; no executable code, data, checkpoint, or raw-result pin
 - Compute policy: local CPU/local GPU only; no HF CPU upgrade, Jobs, paid, or remote compute
 
 ## Current phase
 
-claim_1_attempt_1_finite_decomposition_toy_complete
+claim_1_attempt_1_finite_decomposition_toy_complete_with_standardized_dossier
 
 ## Claim state
 
@@ -30,4 +30,4 @@ claim_1_attempt_1_finite_decomposition_toy_complete
 - Claim 5: UNSTARTED — HRC+DSPPO downstream evaluations.
 - Claim 6: UNSTARTED — DSPPO dynamic-game convergence theorem.
 
-Publication status: published as a partial audit, not eligible as a verified reproduction. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.
+Publication status: published as a partial audit with a standardized dossier, not eligible as a verified reproduction. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.

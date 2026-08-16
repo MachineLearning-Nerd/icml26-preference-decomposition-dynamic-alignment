@@ -21,6 +21,21 @@ Current status: **partial audit**. Claim 1 has a finite exact-rational toy audit
 
 The six live claims are preserved in contract/live_claims.json. The contract manifest is pinned by SHA-256 in contract/contract_manifest.json.
 
+## Standardized audit dossier
+
+| File | Purpose |
+| --- | --- |
+| [CLAIM_EVIDENCE.md](CLAIM_EVIDENCE.md) | Claim-by-claim producers, evidence paths, statuses, and boundaries |
+| [SOURCE_AUDIT.md](SOURCE_AUDIT.md) | Paper identity, source pins, and official implementation provenance |
+| [BRANCH_AUDIT.md](BRANCH_AUDIT.md) | Final branch inventory and attribution |
+| [ENVIRONMENT.md](ENVIRONMENT.md) | Reproduction command and run provenance |
+| [REPORT.md](REPORT.md) | Concise partial-audit conclusion and limitations |
+| [CITATION.cff](CITATION.cff) | Machine-readable citation for this audit |
+| [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md) | Thank-you note to the paper authors |
+| [claims.json](claims.json) | Machine-readable claim ledger |
+| [EVIDENCE_MANIFEST.json](EVIDENCE_MANIFEST.json) | Selected content hashes and required audit files |
+| [verify_final.py](verify_final.py) | Fail-closed local publication verifier |
+
 ## What the paper is doing
 
 The paper argues that pairwise preferences are not always well represented by one scalar reward. It separates preference structure into:
@@ -83,7 +98,7 @@ The environment used for the recorded run is captured in outputs/claim1_finite_d
 
 ## Official implementation status
 
-The paper names [lab-klc/Hybrid-Reward-Cyclic](https://github.com/lab-klc/Hybrid-Reward-Cyclic) as its public code repository. At the time of this audit, the public repository exposed only LICENSE and README.md and no executable training, evaluation, data, or model-release artifacts. Therefore this reproduction cannot pin an official implementation or checkpoint. This is a reproducibility limitation, not evidence that the paper's method is incorrect.
+The paper names [lab-klc/Hybrid-Reward-Cyclic](https://github.com/lab-klc/Hybrid-Reward-Cyclic) as its public code repository. Its observed main tip on 2026-08-17 was ce8b59f57854a40ebeb1609849b8455a1174dfa1; the public repository exposed only LICENSE and README.md, with no executable training, evaluation, data, checkpoint, or raw-result artifacts. Therefore this audit cannot execute or pin the official implementation. This is a reproducibility limitation, not evidence that the paper's method is incorrect.
 
 ## Repository and branch map
 
@@ -100,6 +115,16 @@ The canonical repository has one branch: main. No experiment, ORX, master, or ot
 - outputs/ — auditable JSON, CSV, logs, and checksum manifests.
 - logbook/ — claim-level reasoning and scope notes.
 - tests/ — contract and Claim 1 checks.
+- CLAIM_EVIDENCE.md — standardized claim-to-evidence ledger.
+- SOURCE_AUDIT.md — standardized paper and source audit.
+- BRANCH_AUDIT.md — standardized final branch audit.
+- ENVIRONMENT.md — standardized run provenance.
+- REPORT.md — standardized partial reproduction report.
+- CITATION.cff — machine-readable paper and repository citation.
+- AUTHOR_THANK_YOU.md — author acknowledgement.
+- claims.json — machine-readable claim statuses.
+- EVIDENCE_MANIFEST.json — content-addressed evidence manifest.
+- verify_final.py — final-state verifier.
 
 Branch policy: use main for the canonical audit record. A temporary local branch may be used for development, but it must be merged or removed before publication. Branch names must describe work; names such as orx, experiment, or unnamed checkpoints are not canonical.
 

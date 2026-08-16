@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "paper": "arXiv:2605.17342",
+  "openreview_id": "7H9HRTWady",
+  "repository": "MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "claims": [
+    {
+      "id": "C1",
+      "paper_anchor": "Theorem 4.5",
+      "status": "TOY_FINITE_AUDIT",
+      "scope": "five exact-rational finite seven-strategy skew-symmetric games under a uniform discrete measure",
+      "producer": ["src/claim1_finite_decomposition.py"],
+      "evidence": [
+        "outputs/claim1_finite_decomposition/summary.json",
+        "outputs/claim1_finite_decomposition/results.csv",
+        "outputs/claim1_finite_decomposition/config.json",
+        "outputs/claim1_finite_decomposition/SHA256SUMS"
+      ],
+      "headline": "All fixtures reconstruct exactly, have zero cyclic marginal and zero orthogonality residual; wrong-potential controls fail."
+    },
+    {
+      "id": "C2",
+      "paper_anchor": "Theorem 4.6",
+      "status": "UNSTARTED",
+      "scope": "HRC Bradley-Terry plus GPM-style skew-symmetric instantiation",
+      "producer": [],
+      "evidence": [],
+      "headline": "No HRC fit or held-out preference audit is present."
+    },
+    {
+      "id": "C3",
+      "paper_anchor": "Section 6.2, Table 1",
+      "status": "UNSTARTED",
+      "scope": "RewardBench 2 Gemma-2B-it comparison",
+      "producer": [],
+      "evidence": [],
+      "headline": "No Gemma-2B-it benchmark run or result artifact is present."
+    },
+    {
+      "id": "C4",
+      "paper_anchor": "Section 6.2, Table 1",
+      "status": "UNSTARTED",
+      "scope": "RewardBench 2 Llama-3.1-8B comparison",
+      "producer": [],
+      "evidence": [],
+      "headline": "No Llama-3.1-8B benchmark run or result artifact is present."
+    },
+    {
+      "id": "C5",
+      "paper_anchor": "Section 6.3",
+      "status": "UNSTARTED",
+      "scope": "HRC plus DSPPO downstream evaluation",
+      "producer": [],
+      "evidence": [],
+      "headline": "No AlpacaEval, Arena-Hard, or MT-Bench training/evaluation is claimed."
+    },
+    {
+      "id": "C6",
+      "paper_anchor": "Theorem 5.3",
+      "status": "UNSTARTED",
+      "scope": "DSPPO dynamic-game convergence rate",
+      "producer": [],
+      "evidence": [],
+      "headline": "No duality-gap or convergence-rate audit is present."
+    }
+  ]
+}

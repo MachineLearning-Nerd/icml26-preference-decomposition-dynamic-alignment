@@ -2,17 +2,22 @@
   "schema_version": 1,
   "openreview_id": "7H9HRTWady",
   "paper": "arXiv:2605.17342",
-  "phase": "claim_1_attempt_1_finite_decomposition_toy_complete",
-  "next_action": "update_collection_tracker_and_select_next_repository",
+  "phase": "claim_1_attempt_1_finite_decomposition_toy_complete_with_standardized_dossier",
+  "next_action": "select_next_repository_from_collection_tracker",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
+    "official_author_code_provenance_recorded",
     "claim_1_attempt_1_source_local_audit",
     "claim_1_attempt_1_exact_rational_finite_decomposition_toy",
     "claim_ledger_written",
-    "branch_audit_written"
+    "branch_audit_written",
+    "repository_renamed_and_history_normalized",
+    "remote_branch_cleanup_verified",
+    "canonical_identity_verified",
+    "audit_dossier_written"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -23,8 +28,8 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-12T20:50:27Z",
-  "last_known_git_commit": "f75d053b93bdd2e0a7e21035765d7cb39918087f",
+  "last_checkpoint": "2026-08-17T00:00:00Z",
+  "last_known_git_commit": "9271c858971bf6998fd664b87bfedbd0396504cd",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
@@ -32,15 +37,41 @@
   "target_github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
   "canonical_branch": "main",
   "historical_remote_branch_count": 0,
-  "official_code_repository": "https://github.com/lab-klc/Hybrid-Reward-Cyclic",
-  "official_code_state": "metadata_only_no_executable",
+  "canonical_identity": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com",
+    "verified_reachable_commits": 7
+  },
+  "official_implementation": {
+    "repository": "https://github.com/lab-klc/Hybrid-Reward-Cyclic",
+    "observed_main": "ce8b59f57854a40ebeb1609849b8455a1174dfa1",
+    "observed_at": "2026-08-17",
+    "available_files": [
+      "README.md",
+      "LICENSE"
+    ],
+    "used_by_this_audit": false
+  },
+  "audit_dossier": {
+    "status": "written",
+    "verification_script": "verify_final.py",
+    "claim_statuses": {
+      "1": "TOY_FINITE_AUDIT",
+      "2": "UNSTARTED",
+      "3": "UNSTARTED",
+      "4": "UNSTARTED",
+      "5": "UNSTARTED",
+      "6": "UNSTARTED"
+    },
+    "publication_commit": "pending"
+  },
   "claim_statuses": {
-    "1": "toy_finite_audit",
-    "2": "unstarted",
-    "3": "unstarted",
-    "4": "unstarted",
-    "5": "unstarted",
-    "6": "unstarted"
+    "1": "TOY_FINITE_AUDIT",
+    "2": "UNSTARTED",
+    "3": "UNSTARTED",
+    "4": "UNSTARTED",
+    "5": "UNSTARTED",
+    "6": "UNSTARTED"
   },
   "claim_1_outcome": {
     "verdict": "toy",

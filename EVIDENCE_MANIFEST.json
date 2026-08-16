@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "source": {
+    "paper": "https://arxiv.org/abs/2605.17342",
+    "openreview": "https://openreview.net/forum?id=7H9HRTWady",
+    "official_code": "https://github.com/lab-klc/Hybrid-Reward-Cyclic",
+    "official_code_observed_main": "ce8b59f57854a40ebeb1609849b8455a1174dfa1",
+    "archive_sha256": "0a1dc570c7a3c47d3c3d15e94e1500f2c20603c88418e07aa95dc17b6bc31a3b",
+    "pdf_sha256": "921356c07b3a34bd5c29d88b51f34e55f27eb269fd6aca1d2670ad3d15d80c19"
+  },
+  "required_audit_files": [
+    "README.md",
+    "STATUS.md",
+    "AUTONOMOUS_STATE.json",
+    "branch-audit.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "BRANCH_AUDIT.md",
+    "ENVIRONMENT.md",
+    "REPORT.md",
+    "AUTHOR_THANK_YOU.md",
+    "CITATION.cff",
+    "claims.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py"
+  ],
+  "claim_statuses": {
+    "C1": "TOY_FINITE_AUDIT",
+    "C2": "UNSTARTED",
+    "C3": "UNSTARTED",
+    "C4": "UNSTARTED",
+    "C5": "UNSTARTED",
+    "C6": "UNSTARTED"
+  },
+  "content_addressed_artifacts": [
+    {"path": "contract/metadata.json", "sha256": "fc0048b23c38628d57f49ae110fb032fe99c9a0eb9672392656f041a96e4bfe4"},
+    {"path": "contract/live_claims.json", "sha256": "c7133d31d55c99bd2807340ec65ba9f228ed0fc2ee56c3f6af7481faa20c6e0b"},
+    {"path": "contract/contract_manifest.json", "sha256": "1d3a3cd1de4b26cc96bb2f6819f770fcb0db667d6b0b41d61c1d6d7c6885b8f7"},
+    {"path": "evidence/claim1_source_locations.md", "sha256": "955cbaad344e5225da23e40df43a5b5ac7d0ded6f6093603482826c6539781e9"},
+    {"path": "evidence/source/arxiv_source.tar.gz", "sha256": "0a1dc570c7a3c47d3c3d15e94e1500f2c20603c88418e07aa95dc17b6bc31a3b"},
+    {"path": "evidence/source/paper.pdf", "sha256": "921356c07b3a34bd5c29d88b51f34e55f27eb269fd6aca1d2670ad3d15d80c19"},
+    {"path": "evidence/source/theorem45_excerpt.tex", "sha256": "c0132b0ea62f32ffcc913be09d4eaec3b617f9437174bd4019c47eb6303faed4"},
+    {"path": "src/claim1_finite_decomposition.py", "sha256": "a5539b50055fa70689905061eac3493feb489acc3515596bbfa855d241b99d62"},
+    {"path": "src/claim1_source_audit.py", "sha256": "32caae79a9522aa9510f8e0857bdec9153ea2a20886738e160a3266b6e2fa065"},
+    {"path": "outputs/claim1_source_audit.json", "sha256": "9c3bb1a456e4a85273c60e77272a3f6e51fe06eea6a0f321d7b6a65ec63c5e82"},
+    {"path": "outputs/claim1_finite_decomposition/config.json", "sha256": "491417f2f56c222183670ff17afb80aaaedb0df9ccaf7cb7c4976619b8ddac23"},
+    {"path": "outputs/claim1_finite_decomposition/results.csv", "sha256": "7be934cc9d639e8cbc0179d4297f4985cabb95a54a4ce2a1af5f1be6b144ca06"},
+    {"path": "outputs/claim1_finite_decomposition/run.log", "sha256": "11440b147303ba0e3fcc0f0a97c02d9153cbaf54450e4174c828881813dbabda"},
+    {"path": "outputs/claim1_finite_decomposition/summary.json", "sha256": "64e76d7fa0ecf2ef4f5c0312dd1e5f31d3d44cc7dd6a52d462726c5a6d3941c5"},
+    {"path": "outputs/claim1_finite_decomposition/SHA256SUMS", "sha256": "f62f2fa6f216f9c761ca3818f8d92c3e98f6540fbdc928aeee32a90d44bd02d1"}
+  ]
+}

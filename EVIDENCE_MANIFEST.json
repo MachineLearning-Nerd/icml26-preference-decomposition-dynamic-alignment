@@ -1,6 +1,10 @@
 {
   "schema_version": 1,
   "repository": "MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
   "source": {
     "paper": "https://arxiv.org/abs/2605.17342",
     "openreview": "https://openreview.net/forum?id=7H9HRTWady",
@@ -22,6 +26,7 @@
     "AUTHOR_THANK_YOU.md",
     "CITATION.cff",
     "claims.json",
+    "reproduction_verdicts.json",
     "EVIDENCE_MANIFEST.json",
     "verify_final.py"
   ],
@@ -48,6 +53,12 @@
     {"path": "outputs/claim1_finite_decomposition/results.csv", "sha256": "7be934cc9d639e8cbc0179d4297f4985cabb95a54a4ce2a1af5f1be6b144ca06"},
     {"path": "outputs/claim1_finite_decomposition/run.log", "sha256": "11440b147303ba0e3fcc0f0a97c02d9153cbaf54450e4174c828881813dbabda"},
     {"path": "outputs/claim1_finite_decomposition/summary.json", "sha256": "64e76d7fa0ecf2ef4f5c0312dd1e5f31d3d44cc7dd6a52d462726c5a6d3941c5"},
-    {"path": "outputs/claim1_finite_decomposition/SHA256SUMS", "sha256": "f62f2fa6f216f9c761ca3818f8d92c3e98f6540fbdc928aeee32a90d44bd02d1"}
+    {"path": "outputs/claim1_finite_decomposition/SHA256SUMS", "sha256": "f62f2fa6f216f9c761ca3818f8d92c3e98f6540fbdc928aeee32a90d44bd02d1"},
+    {"path": "README.md", "sha256": "e2b4fc1d305e0c78042434e341dbb2c99f03a22a13fe3eb2a3ac410902c099d4"},
+    {"path": "STATUS.md", "sha256": "bea8fcb5cbe37c077654fe933012f6174161226e1e8d759c055218e2956cbca2"},
+    {"path": "REPORT.md", "sha256": "8089129f2cfc09e7e98ac48123838b609812210528b8edbbe733e98d7cdd6832"},
+    {"path": "claims.json", "sha256": "3d2d9408e5ca0e0ed846628266739255b0c33a2b1cf10ea1aa7c0035258533c8"},
+    {"path": "reproduction_verdicts.json", "sha256": "693a7f7875fc0620084f8bce22214b5b78618f77342187fa2e8558d0bc3c61d1"},
+    {"path": "AUTONOMOUS_STATE.json", "sha256": "10915073f75ec9ff659b4a1566ff3179bf511cf3256d76c8e2a2cfea5ee72d68"}
   ]
 }

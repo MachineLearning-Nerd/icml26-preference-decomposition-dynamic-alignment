@@ -2,7 +2,7 @@
   "schema_version": 1,
   "openreview_id": "7H9HRTWady",
   "paper": "arXiv:2605.17342",
-  "phase": "claim_1_attempt_1_finite_decomposition_toy_complete_with_standardized_dossier",
+  "phase": "published_partial_audit",
   "next_action": "select_next_repository_from_collection_tracker",
   "active_run_ids": [],
   "completed_milestones": [
@@ -28,19 +28,23 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-17T00:00:00Z",
-  "last_known_git_commit": "9271c858971bf6998fd664b87bfedbd0396504cd",
+  "last_checkpoint": "2026-08-19T15:00:27+05:30",
+  "last_known_git_commit": "a853ee635daab208f65d6dcd9b7231009a3de27c",
   "publication_allowed": false,
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED",
+  "score_claim": false,
+  "official_author_endorsement": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
   "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-7H9HRTWady-preference-decomposition-dynamic-alignment",
   "target_github_repository": "https://github.com/MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
   "canonical_branch": "main",
   "historical_remote_branch_count": 0,
+  "branch_count": 1,
   "canonical_identity": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com",
-    "verified_reachable_commits": 7
+    "email": "MachineLearning-Nerd@users.noreply.github.com",
+    "verified_reachable_commits": 8
   },
   "official_implementation": {
     "repository": "https://github.com/lab-klc/Hybrid-Reward-Cyclic",
@@ -55,6 +59,7 @@
   "audit_dossier": {
     "status": "written",
     "verification_script": "verify_final.py",
+    "reproduction_verdicts": "reproduction_verdicts.json",
     "claim_statuses": {
       "1": "TOY_FINITE_AUDIT",
       "2": "UNSTARTED",

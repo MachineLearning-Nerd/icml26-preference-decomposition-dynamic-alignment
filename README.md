@@ -4,6 +4,8 @@ Independent, claim-by-claim reproduction and audit record for the ICML 2026 pape
 
 Current status: **partial audit**. Claim 1 has a finite exact-rational toy audit. Claims 2–6 remain unstarted. Nothing in this repository should be read as a verified reproduction of the paper's universal theorem, model training, or benchmark results.
 
+The publication boundary is explicit: `publication_allowed=false`, `score_claim=false`, and `official_author_endorsement=false` because Claims 2–6 are unstarted and Claim 1 is only a finite uniform-discrete toy audit.
+
 ## Paper and provenance
 
 | Field | Record |
@@ -33,8 +35,10 @@ The six live claims are preserved in contract/live_claims.json. The contract man
 | [CITATION.cff](CITATION.cff) | Machine-readable citation for this audit |
 | [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md) | Thank-you note to the paper authors |
 | [claims.json](claims.json) | Machine-readable claim ledger |
+| [reproduction_verdicts.json](reproduction_verdicts.json) | Machine-readable reproduction verdicts and claim boundaries |
 | [EVIDENCE_MANIFEST.json](EVIDENCE_MANIFEST.json) | Selected content hashes and required audit files |
 | [verify_final.py](verify_final.py) | Fail-closed local publication verifier |
+| [AUTONOMOUS_STATE.json](AUTONOMOUS_STATE.json) | Machine-readable continuation and publication state |
 
 ## What the paper is doing
 

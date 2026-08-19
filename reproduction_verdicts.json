@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "paper": {
+    "title": "Transitivity Meets Cyclicity: Explicit Preference Decomposition for Dynamic Large Language Model Alignment",
+    "authors": [
+      "Yucong Huang",
+      "Xiucheng Li",
+      "Kaiqi Zhao",
+      "Jing Li"
+    ],
+    "arxiv": "2605.17342",
+    "openreview_id": "7H9HRTWady"
+  },
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "TOY_FINITE_AUDIT",
+      "status_detail": "TOY_FINITE_EXACT_PREFERENCE_DECOMPOSITION",
+      "claim_boundary": "Five exact-rational finite seven-strategy skew-symmetric games under a uniform discrete measure reconstruct exactly with zero cyclic marginal and zero orthogonality residual. This does not establish the universal theorem for arbitrary functions, measures, or embedding assumptions.",
+      "producer": [
+        "src/claim1_finite_decomposition.py"
+      ],
+      "evidence": [
+        "outputs/claim1_finite_decomposition/summary.json",
+        "outputs/claim1_finite_decomposition/results.csv"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "UNSTARTED",
+      "status_detail": "UNSTARTED_HRC_INSTANTIATION",
+      "claim_boundary": "No HRC Bradley-Terry plus GPM-style fit, held-out preference audit, embedding construction, or constraint check is present.",
+      "planned_producer": "Pin the data and embeddings, fit or load the scalar reward and skew-symmetric bilinear form, and audit held-out pairwise preferences."
+    },
+    {
+      "id": "C3",
+      "status": "UNSTARTED",
+      "status_detail": "UNSTARTED_REWARDBENCH_GEMMA",
+      "claim_boundary": "No RewardBench 2 Gemma-2B-it checkpoint, task data, prompt, training run, or result artifact is reproduced.",
+      "planned_producer": "Pin the benchmark version, checkpoint, objective, seeds, evaluator, and task-level raw outputs before comparing HRC, BT, and GPM."
+    },
+    {
+      "id": "C4",
+      "status": "UNSTARTED",
+      "status_detail": "UNSTARTED_REWARDBENCH_LLAMA",
+      "claim_boundary": "No RewardBench 2 Llama-3.1-8B checkpoint or paper-faithful comparison is reproduced.",
+      "planned_producer": "Use the same pinned protocol as Claim 3 and retain task-level metrics, aggregation, uncertainty, and baseline configuration."
+    },
+    {
+      "id": "C5",
+      "status": "UNSTARTED",
+      "status_detail": "UNSTARTED_DOWNSTREAM_ALIGNMENT_BENCHMARKS",
+      "claim_boundary": "No HRC+DSPPO training, AlpacaEval 2.0, Arena-Hard-v0.1, or MT-Bench result is reproduced.",
+      "planned_producer": "Pin policy checkpoints, preference data, DSPPO schedule, decoding, reference models, evaluators, prompts, and raw judged outputs."
+    },
+    {
+      "id": "C6",
+      "status": "UNSTARTED",
+      "status_detail": "UNSTARTED_DSPPO_CONVERGENCE_AUDIT",
+      "claim_boundary": "No dynamic-game implementation, duality-gap trace, assumption audit, or O(1/sqrt(T)) convergence-rate reproduction is present.",
+      "planned_producer": "Implement the time-varying score schedule with explicit realizability, bounded-score, approximation-error, step-size, and average-policy checks."
+    }
+  ]
+}

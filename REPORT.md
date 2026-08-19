@@ -2,6 +2,10 @@
 
 ## Conclusion
 
+Machine-readable overall verdict: `PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED`.
+`publication_allowed=false`, `score_claim=false`, and
+`official_author_endorsement=false`.
+
 The current evidence supports one narrow result: the row-mean potential construction from Theorem 4.5 exactly decomposes five finite seven-strategy skew-symmetric preference matrices into a transitive difference and a cyclic zero-marginal residual, with exact orthogonality. The result is labeled `TOY_FINITE_AUDIT`.
 
 Claims 2–6 are not reproduced. The repository does not claim the HRC instantiation, RewardBench 2 scores, downstream LLM alignment scores, or DSPPO convergence rate.

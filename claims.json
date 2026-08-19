@@ -3,6 +3,10 @@
   "paper": "arXiv:2605.17342",
   "openreview_id": "7H9HRTWady",
   "repository": "MachineLearning-Nerd/icml26-preference-decomposition-dynamic-alignment",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
   "claims": [
     {
       "id": "C1",

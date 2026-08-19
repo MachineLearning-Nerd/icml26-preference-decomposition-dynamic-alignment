@@ -19,7 +19,7 @@
 
 ## Current phase
 
-claim_1_attempt_1_finite_decomposition_toy_complete_with_standardized_dossier
+published_partial_audit
 
 ## Claim state
 
@@ -30,4 +30,8 @@ claim_1_attempt_1_finite_decomposition_toy_complete_with_standardized_dossier
 - Claim 5: UNSTARTED — HRC+DSPPO downstream evaluations.
 - Claim 6: UNSTARTED — DSPPO dynamic-game convergence theorem.
 
-Publication status: published as a partial audit with a standardized dossier, not eligible as a verified reproduction. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.
+Publication status: standardized partial-audit dossier published; not eligible as a verified reproduction. The finite result is a toy audit and does not establish the paper's universal theorem or benchmark claims.
+Overall verdict: PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_6_UNSTARTED
+Publication boundary: publication_allowed=false; score_claim=false; official_author_endorsement=false
+
+Machine-readable continuation state is in AUTONOMOUS_STATE.json, and the explicit claim-by-claim publication verdict is in reproduction_verdicts.json. This repository does not claim a paper score or official author endorsement.
